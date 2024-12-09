@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Manrope:wght@200..800&display=swap');
+body{
+    font-family: "Manrope", serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+header .hora{
+    background-color: #4BAF47;
+}
+.contenedor{
+    /* border: 1px red solid; */
+    width: 1170px;
+    margin: 0 auto;
+}
+.navegation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+nav .navegation .menu-links {
+    display: flex;
+    gap: 55px;
+}
+
+nav .navegation .menu-links a{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #878680;
+}
+
+nav .navegation .menu-links a.active{
+    font-weight: 800;
+    color: #1F1E17;
+}
+
+.hora {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #FFFFFF;
+
+}
+nav img{
+    padding: 32px 0;
+}
+
+nav .navegation .menu-icons{
+    display: flex;
+    gap: 30px;
+}
+main .banner{
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 225px 0;
+}
+.banner h3{
+    font-size: 100px;
+    font-weight: 800;
+    line-height: 100px;
+    color: #FFFFFF;
+    width: 496.16px;
+
+}
+
+.banner h3 span{
+    font-family: "Covered By Your Grace";
+    font-size: 130px;
+    font-weight: 400;
+    line-height: 70px;
+    color: #EEC044;
+
+}
+
+.banner h3 button{
+    background-color: #4BAF47;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #fff;
+    padding: 15px 50px;
+    border: none;
+    margin-top: 45px;
+}
+
+.cardProducts {
+    padding: 195px 0;
+}
+
+.cardProducts2 {
+    padding: 50px 0;
+}
+
+.cardProducts, .titulos span{
+    font-family: "Covered By Your Grace";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    color: #EEC044;
+
+}
+.cardProducts .titulos {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 57.6px;
+    text-align: center;
+    color: #1F1E17;
+    margin-bottom: 100px;
+
+}
+.cardProducts .grilla-productos{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+
+main .slide{
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 225px 0;
+    text-align: center;
+}
+main .slide h3{
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 74px;
+    color: #FFFFFF;
+}
+main .slide button{
+    background-color: #4BAF47;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #fff;
+    padding: 15px 50px;
+    border: none;
+    margin-top: 45px;
+}
+.grupo-producto .detalle{
+    display: none;
+
+    font-family: Manrope;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 26px;
+    color: #222222;
+}
+
+.grupo-producto .detalle span{
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #4BAF47;
+}
+
+
+.texto-centro{
+    text-align: center;
+}
+
+.texto-izquierda{
+    text-align: left;
+}
+
+.footer {
+    background-color: #333; 
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 93.5px;
+}
+
+.marco {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    
+    width: 270px;
+    gap: 20.5px;
+}
+
+.marco span {
+    flex: 1;
+    font-family: Manrope;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #A5A49A;
+    text-align: left;
+
+    height: 110px;
+    width: 270px;
+}
+
+.grupo-redes {
+    display: flex;
+    gap: 10px; 
+}
+
+.grupo-redes img {
+    width: 30px; 
+    height: 30px;
+}

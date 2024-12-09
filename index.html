@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Agricultura</title>
+</head>
+
+<body onload="inicio(); slide(); hora()">
+    <header>
+        <div class="hora" id="hola">
+            <div class="contenedor">
+                Hora 00:00
+            </div>
+        </div>
+        <nav class="contenedor navegation">
+            <a href="/"><img src="img/logo.png" alt=""></a>
+            <div class="menus navegation">
+                <div class="menu-links">
+                    <a href="#" class="active">Inicio</a>
+                    <a href="#">Pedidos</a>
+                    <a href="#">Personaliza</a>
+                    <a href="#">Eventos</a>
+                    <a href="#">Contáctanos</a>
+                </div>
+                <div class="menu-icons">
+                    <img src="img/icons/buscar.png" alt="">
+                    <img src="img/icons/car.png" alt="">
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="banner">
+            <div class="contenedor">
+                <h3>
+                    <span id="principal">Agriculture</span>
+                    & Organic Market
+                    <button>Shop Now </button>
+                </h3>
+            </div>
+        </div>
+        <div class="cardProducts contenedor">
+            <div class="titulos">
+                <span>Recently Added</span><br>
+                Latest Products
+            </div>
+            <div class="grilla-productos">
+                <div class="grupo-producto">
+                    <img src="img/products/prod-cebollas.png" alt="" onclick="mostrarDetalleProduct(1)">
+                    <div class="detalle texto-centro" id="detalle-1">
+                        Onions </br>
+                        <span>$20.00</span>
+                    </div>
+                </div>
+                <div class="grupo-producto">
+                    <img src="img/products/prod-zanahoria.png" alt="" onclick="mostrarDetalleProduct(2)">
+                    <div class="detalle texto-centro" id="detalle-2">
+                        Carrot </br>
+                        <span>$50.00</span>
+                    </div>
+                </div>
+                <div class="grupo-producto">
+                    <img src="img/products/prod-tomates.png" alt="" onclick="mostrarDetalleProduct(3)">
+                    <div class="detalle texto-centro" id="detalle-3">
+                        Tomate </br>
+                        <span>$50.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="grilla-productos">
+                <div class="grupo-producto">
+                    <img src="img/products/prod-uvas.png" alt="" onclick="mostrarDetalleProduct(4)">
+                    <div class="detalle texto-centro" id="detalle-4">
+                        Red Grapes </br>
+                        <span>$100.00</span>
+                    </div>
+                </div>
+                <div class="grupo-producto">
+                    <img src="img/products/prod-ajos.png" alt="" onclick="mostrarDetalleProduct(5)">
+                    <div class="detalle texto-centro" id="detalle-5">
+                        Garlic </br>
+                        <span>$20.00</span>
+                    </div>
+                </div>
+                <div class="grupo-producto">
+                    <img src="img/products/prod-lechuga.png" alt="" onclick="mostrarDetalleProduct(6)">
+                    <div class="detalle texto-centro" id="detalle-6">
+                        Lettuce </br>
+                        <span>$30.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+           <div class="contenedor">
+            <h3 id="titulo-banner">Be Healthy & Eat Only Fresh <br>
+                Organic Vagetables</h3>
+                <button>Shop Now </button>
+           </div>
+        </div>
+
+
+        
+        <div class="cardProducts cardProducts2 contenedor">
+            <div class="titulos">
+                <span>Special Offers</span><br>
+                Today's Hot Deal
+            </div>
+            <div class="grilla-productos">
+                <div class="grupo-producto">
+                    <img src="img/products/ofert-lechuga.png" alt="" onclick="mostrarDetalleProduct(21)">
+                    <div class="detalle texto-izquierda" id="detalle-21">
+                        Grapes </br>
+                        <span>$100.00</span>
+                    </div>
+                </div>
+                <div class="grupo-producto">
+                    <img src="img/products/ofert-cebollas.png" alt="" onclick="mostrarDetalleProduct(22)">
+                    <div class="detalle texto-izquierda" id="detalle-22">
+                        Onions </br>
+                        <span>$20.00</span>
+                    </div>
+                </div>
+                <div class="grupo-producto">
+                    <img src="img/products/ofert-manzanas.png" alt="" onclick="mostrarDetalleProduct(23)">
+                    <div class="detalle texto-izquierda" id="detalle-23">
+                        Apples </br>
+                        <span>$50.00</span>
+                    </div>
+                </div>
+                <div class="grupo-producto">
+                    <img src="img/products/ofert-platanos.png" alt="" onclick="mostrarDetalleProduct(24)">
+                    <div class="detalle texto-izquierda" id="detalle-24">
+                        Bananas </br>
+                        <span>$20.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer" class="footer">
+            <div class="marco">
+                <div>
+                    <img src="img/logo-blanco.png" alt="">
+                </div>
+                <span>There are many variations of passages of lorem ipsum available, but the majority suffered.</span>
+                <div class="grupo-redes">
+                    <img src="img/icons/rs-1.png" alt="" onmouseover="cambiarBorde(true)" onmouseout="cambiarBorde(false)">
+                    <img src="img/icons/rs-2.png" alt="" onmouseover="cambiarBorde(true)" onmouseout="cambiarBorde(false)">
+                    <img src="img/icons/rs-3.png" alt="" onmouseover="cambiarBorde(true)" onmouseout="cambiarBorde(false)">
+                    <img src="img/icons/rs-4.png" alt="" onmouseover="cambiarBorde(true)" onmouseout="cambiarBorde(false)">
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>

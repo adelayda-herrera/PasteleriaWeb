@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Manrope:wght@200..800&display=swap');
+body{
+    font-family: "Manrope", serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.contenedor{
+    /* border: 1px red solid;*/
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/*------------------------  FIN CSS GENERAL ----------------------------*/
+.ciruclo {
+    width: 40px; 
+    height: 40px; 
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*------------------------  FIN CSS FORMAS ----------------------------*/
+header > div:first-child {
+    background-color: #350F0E;
+}
+header > div:last-child {
+    background-color: #F2762F;
+}
+
+header .header-padre{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    color: white;
+}
+
+nav .navegation .menu-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+nav .navegation .menu-links a{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+nav .navegation .menu-links a.active{
+    font-weight: 800;
+    color: #1F1E17;
+}
+
+/*------------------------  FIN CSS DEL MENU ----------------------------*/
+
+
+main .banner{
+    background-image: url(../img/image/fondo_pasteleria.png);
+    background-size: contain;
+    background-position: center;
+    padding: 225px 0;
+}
+
+main .bienvenida{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+/*------------------------  FIN CSS SECCION PRINCIPAL ------------------*/
+
+.titulo-cabecera {
+    font-family: "Manrope", serif;
+    font-size: 28px;
+    font-weight: 500;
+    color: #232323;
+
+}
+
+.titulo {
+    font-family: "Manrope", serif;
+    font-size: 26px;
+    color: #232323;
+
+}
+
+.parrafo {
+    font-family: "Manrope", serif;
+    font-size: 16px;
+    color: #232323;
+
+}
+
+.center {
+    text-align: center;
+}
+
+/*------------------------  FIN CSS TEXTOS ----------------------------*/
+
+.destacados{
+    background-color: #FEFCE0;
+    padding-top: 90px;
+    padding-bottom: 0px;
+}
+
+.destacados .contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    /*padding-top: 20px;*/
+    padding-bottom: 40px;
+}
+
+.destacados .lista{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.cad-producto-sm {
+    background-color: #fff;
+    border: 2px solid orange;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+.cad-producto-sm .eventos{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+.cad-producto-sm .eventos img {
+    width: 25px;
+    height: 25px;
+}
+
+.cad-producto-sm .imagen img {
+    width: 180px;
+    height: 160px;
+}
+
+.descuento{
+    display: flex;
+    color: red;
+    font-size: 18px;
+    gap: 10px;
+}
+
+.cad-producto-sm .informacion {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.cad-producto-sm .informacion div:nth-child(1){
+    font-size: 13px;
+    color: red;
+    font-weight: 700;
+}
+
+.cad-producto-sm .informacion div:nth-child(2){
+    font-size: 13px;
+}
+
+.cad-producto-sm .informacion div:nth-child(3){
+    font-size: 13px;
+    color: black;
+    font-weight: 700;
+}
+
+/*------------------------  FIN CSS DESTACADOS -----------------------*/
+
+.conocenos {
+    background-color: #FEFCE0;
+    padding-top: 10px;
+    padding-bottom: 90px;
+}
+
+.conocenos .contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.conocenos .lista {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.conocenos .lista .cardInfo {
+    width: 300px;
+    height: 200px;
+    background-color: #FFA834;
+    border: 2px solid #F2762F;
+    border-radius: 10px; 
+    padding: 20px 20px 20px 20px;
+    text-align: justify;
+    position: relative;
+}
+
+.cardInfo .ciruclo {
+    background-color: #fff;
+    color: #FFA834;
+    
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.cardInfo .cardInfo-frase{
+    margin-top: 10px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.conocenos .lista .boton-control{
+    background-color: #FEFCE0;
+    color: #FFA834;
+    border: 2px solid #FFA834;
+    
+    font-size: 16px;
+    font-weight: 700;
+}
+.conocenos .lista .flotarIzq{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -50px;
+}
+.conocenos .lista .flotarDer{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -50px;
+}
+
+/*------------------------  FIN CSS CONOCENOS -----------------------*/
+.ubicanos {
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.ubicanos .contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*border: 1px solid black;*/
+    gap: 60px;
+    height: 550px;
+}
+
+.ubicanos .direcciones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 5px;
+    /*border: 1px solid green;*/
+}
+
+.ubicanos .lista{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.direccion div{
+    margin-top: 10px;
+}
+
+.direccion div:first-child{
+    color: blue;
+    text-decoration: underline;
+}
+
+.mapa {
+    width: 100%; /* Ancho completo del contenedor */
+    height: 100%; /* Altura del mapa */
+    max-width: 1000px; /* Puedes ajustar el tamaño según sea necesario */
+    margin: 0 auto; /* Centrar el mapa si es necesario */
+    /*border: 1px solid rgb(83, 27, 100);*/
+  }
+
+/*------------------------  FIN CSS UBICANOS --------------------------*/
+
+.inscribete {
+    background-color: #FEFCE0;
+
+}
+
+.inscribete .contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+/*------------------------  FIN CSS UBICANOS --------------------------*/
+
+
+.boton-principal{
+    background-color: #FFA834;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    /*margin-top: 45px;*/
+}
+
+.boton-secundario{
+    background-color: #FFA834;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    padding: 2px 8px;
+    border: none;
+    /*margin-top: 45px;*/
+    width: 150px;
+}
+
+/*------------------------  FIN CSS BOTONES --------------------------*/
+
+.test{
+    
+    background-color: #2c41a1;
+    height: 300px;
+}
+
+
+.cardProducts {
+    padding: 195px 0;
+}
+
+.cardProducts2 {
+    padding: 50px 0;
+}
+
+.cardProducts, .titulos span{
+    font-family: "Covered By Your Grace";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    color: #EEC044;
+}
+
+.cardProducts .titulos {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 57.6px;
+    text-align: center;
+    color: #1F1E17;
+    margin-bottom: 100px;
+
+}
+.cardProducts .grilla-productos{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+
+main .slide{
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 225px 0;
+    text-align: center;
+}
+main .slide h3{
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 74px;
+    color: #FFFFFF;
+}
+main .slide button{
+    background-color: #4BAF47;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #fff;
+    padding: 15px 50px;
+    border: none;
+    margin-top: 45px;
+}
+.grupo-producto .detalle{
+    display: none;
+
+    font-family: Manrope;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 26px;
+    color: #222222;
+}
+
+.grupo-producto .detalle span{
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #4BAF47;
+}
+
+
+.texto-centro{
+    text-align: center;
+}
+
+.texto-izquierda{
+    text-align: left;
+}
+
+.footer {
+    background-color: #333; 
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 93.5px;
+}
+
+.marco {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    
+    width: 270px;
+    gap: 20.5px;
+}
+
+.marco span {
+    flex: 1;
+    font-family: Manrope;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #A5A49A;
+    text-align: left;
+
+    height: 110px;
+    width: 270px;
+}
+
+.grupo-redes {
+    display: flex;
+    gap: 10px; 
+}
+
+.grupo-redes img {
+    width: 30px; 
+    height: 30px;
+}
