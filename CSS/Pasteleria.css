@@ -451,7 +451,7 @@ form input {
 /*---------------------------------------  FIN CSS INSCRIBETE ----------------------------------*/
 
 .footer {
-    background: url('/IMG/FONDOS/fondo_pasteleria.png') no-repeat center bottom;
+    background: url('../IMG/FONDOS/footer-fondo.png') no-repeat center bottom;
     background-size: cover; /* La imagen ocupará todo el fondo del footer */
     text-align: center;
     padding: 40px 20px;
