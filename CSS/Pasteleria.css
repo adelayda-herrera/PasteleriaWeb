@@ -520,3 +520,39 @@ form input {
 .btn-flotante:hover {
     background-color: #218838; /* Cambio de color al pasar el ratón */
 }
+
+/*---------------------------------------  FIN CSS BOTON FLOTANTE DERECHO INFERIOR ----------------------------------*/
+
+
+.eventos-section {
+    background-color: #f4f4f4;
+    padding: 40px;
+    line-height: 1.5;
+}
+.evento {
+    background-color: #FEFCE0;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.evento h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    font-weight: 800;
+}
+.evento p {
+    font-size: 16px;
+}
+.evento .fecha {
+    font-weight: bold;
+}
+.sorteo {
+    max-width: 25%;
+    border-radius: 3px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*---------------------------------------  FIN CSS PAGINA EVENTOS ----------------------------------*/
