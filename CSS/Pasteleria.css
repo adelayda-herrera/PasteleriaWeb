@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Manrope:wght@200..800&display=swap');
+
+body{
+    font-family: "Manrope", serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+/*--------------------------FIN CSS GENERAL--------------------------------*/
+.contenedor{
+    width: 1170px;
+    margin: 0 auto;
+}
+.contenedor-header{
+    margin: 0 auto;
+    padding: 10px;
+}
+header .header-padre{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    color: white;
+}
+
+.menu-icon img{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.usuario{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.redes{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+.logo-pasteleria{
+    margin-left: 10px;
+}
+
+header {
+    background-color: #350F0E;
+}
+header > div:last-child {
+    background-color: #F2762F;
+}
+
+header{
+    align-items: center;
+    gap: 60px;
+    color: white;
+}
+
+nav .menu-navegacion .menu-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+nav .menu-navegacion .menu-links a{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+nav .menu-navegacion .menu-links a.active{
+    font-weight: 800;
+    color: #1F1E17;
+}
+
+/*-------------------------------- FIN CSS HEADER---------------------------*/
+
+main .banner{
+    background-image: url(../IMG/FONDOS/fondo_pasteleria.png);
+    background-size: contain;
+    background-position: center;
+    padding: 225px 0;
+}
+
+main .contenedor-bienvenida{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+/*--------------------------------- FIN CSS MENU (BANNER) ------------------------*/
+.titulo-cabecera {
+    font-family: "Manrope", serif;
+    font-size: 28px;
+    font-weight: 500;
+    color: #232323;
+
+}
+
+.titulo h3 {
+    font-family: "Manrope", serif;
+    font-size: 26px;
+    color: #232323;
+    
+}
+
+.parrafo h3 {
+    font-family: "Manrope", serif;
+    font-size: 16px;
+    color: #232323;
+
+}
+
+.contenedor-bienvenida h3 {
+    text-align: center;
+}
+
+/* ---------------------------------FIN CSS TEXTO H3 -----------------------------*/
+
+.destacados{
+    background-color: #FEFCE0;
+    padding-top: 90px;
+    padding-bottom: 0px;
+}
+
+.destacados .contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    padding-bottom: 40px;
+}
+
+.destacados .lista{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.cad-producto-sm {
+    background-color: #fff;
+    border: 2px solid orange;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+.cad-producto-sm .eventos{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+.cad-producto-sm .eventos img {
+    width: 25px;
+    height: 25px;
+}
+
+.cad-producto-sm .imagen img {
+    width: 180px;
+    height: 160px;
+}
+
+.descuento{
+    display: flex;
+    color: red;
+    font-size: 18px;
+    gap: 10px;
+}
+
+.cad-producto-sm .informacion {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.cad-producto-sm .informacion div:nth-child(1){
+    font-size: 13px;
+    color: red;
+    font-weight: 700;
+}
+
+.cad-producto-sm .informacion div:nth-child(2){
+    font-size: 13px;
+}
+
+.cad-producto-sm .informacion div:nth-child(3){
+    font-size: 13px;
+    color: black;
+    font-weight: 700;
+}
+
+.center{
+    text-align: center;
+}
+
+/*--------------------------------------  FIN CSS DESTACADOS --------------------------*/
+
+.boton-principal{
+    background-color: #FFA834;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    /*margin-top: 45px;*/
+}
+
+.boton-secundario{
+    background-color: #FFA834;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    padding: 2px 8px;
+    border: none;
+    /*margin-top: 45px;*/
+    width: 150px;
+}
+
+/*------------------------  FIN CSS BOTONES --------------------------*/
+
+.conocenos {
+    background-color: #FEFCE0;
+    padding-top: 10px;
+    padding-bottom: 90px;
+}
+
+.conocenos .contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.conocenos .lista {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.conocenos .lista .cardInfo {
+    width: 300px;
+    height: 200px;
+    background-color: #FFA834;
+    border: 2px solid #F2762F;
+    border-radius: 10px; 
+    padding: 20px 20px 20px 20px;
+    text-align: justify;
+    position: relative;
+}
+
+.circulo {
+    width: 40px; 
+    height: 40px; 
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardInfo .circulo {
+    background-color: #fff;
+    color: #FFA834;
+    width: 40px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.cardInfo .cardInfo-frase{
+    margin-top: 10px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.conocenos .lista .boton-control{
+    background-color: #FEFCE0;
+    color: #FFA834;
+    border: 2px solid #FFA834;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 50%;
+}
+.conocenos .lista .flotarIzq{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -50px;
+}
+.conocenos .lista .flotarDer{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -50px;
+}
+
+/*-----------------------------------------  FIN CSS CONOCENOS ----------------------------------------*/
+
+.ubicanos {
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.ubicanos .contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*border: 1px solid black;*/
+    gap: 60px;
+    height: 550px;
+}
+
+.ubicanos .direcciones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 5px;
+    /*border: 1px solid green;*/
+}
+
+.ubicanos .lista{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.direccion div{
+    margin-top: 10px;
+}
+
+.direccion div:first-child{
+    color: blue;
+    text-decoration: underline;
+}
+
+.mapa {
+    width: 100%; /* Ancho completo del contenedor */
+    height: 100%; /* Altura del mapa */
+    max-width: 1000px; /* Puedes ajustar el tamaño según sea necesario */
+    margin: 0 auto; /* Centrar el mapa si es necesario */
+    /*border: 1px solid rgb(83, 27, 100);*/
+}
+
+/*---------------------------------------  FIN CSS UBICANOS ----------------------------------*/
+.inscribete {
+    background-color: #FEFCE0;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.inscribete .contenedor {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    gap: 50px;
+}
+
+.formulario {
+    text-align: left;
+    flex: 1;
+}
+
+.titulo-cabecera {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.boton {
+    background-color: #F2762F;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.boton:hover {
+    background-color: #D45C1A;
+}
+
+.informacion {
+    flex: 1;
+    color: #F2762F;
+}
+
+.informacion .titulo {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.informacion .descripcion {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/*---------------------------------------  FIN CSS INSCRIBETE ----------------------------------*/
+
+.footer {
+    background: url('/IMG/FONDOS/fondo_pasteleria.png') no-repeat center bottom;
+    background-size: cover; /* La imagen ocupará todo el fondo del footer */
+    text-align: center;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    color: #5A4633;
+}
+
+.footer-nav {
+    margin-bottom: 20px;
+}
+
+.footer-nav a {
+    color: #5A4633;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+.footer-social {
+    margin-bottom: 15px;
+}
+
+.footer-social a {
+    color: #5A4633;
+    font-size: 20px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-social a:hover {
+    color: #F2762F;
+}
+
+.footer-info p {
+    margin: 5px 0;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+/*---------------------------------------  FIN CSS FOOTER ----------------------------------*/
+/* Estilo para el botón flotante */
+.btn-flotante {
+    position: fixed;        /* El botón se mantiene fijo en la pantalla */
+    bottom: 20px;           /* Se ubica 20px desde el fondo */
+    right: 20px;            /* Se ubica 20px desde la derecha */
+    background-color: #28a745; /* Color de fondo del botón (puedes cambiarlo) */
+    border-radius: 50%;     /* Redondea los bordes para hacerlo circular */
+    padding: 15px;          /* Tamaño del botón */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra sutil */
+    transition: background-color 0.3s ease; /* Animación al pasar el mouse */
+    text-decoration: none;  /* Eliminar subrayado */
+}
+
+.btn-flotante img {
+    width: 30px;            /* Tamaño del icono */
+    height: 30px;           /* Tamaño del icono */
+}
+
+/* Efecto hover */
+.btn-flotante:hover {
+    background-color: #218838; /* Cambio de color al pasar el ratón */
+}
