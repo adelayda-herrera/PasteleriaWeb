@@ -1,37 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/pasteleria.css">
-    <title>Degos's Pastelería</title>
+    <link rel="stylesheet" href="CSS/Pasteleria.css">
+    <title>Diego's Pasteleria</title>
 </head>
-
-<body onload="inicio(); slide(); hora()">
-
-
-
+<body>
     <header>
-        <div>
-            <section class="contenedor header-padre" id="headerPadre">
-                <a href="/"><img src="img/image/logo-pasteleria.png" alt=""></a>
+        <div class="contenedor header-padre">
+            <div class="logo-pasteleria">
+                <a href="/Index/Pasteleria.html"><img src="IMG/FONDOS/logo-pasteleria.png" alt=""></a>
+            </div>
+            <div class="menu-principal">
                 <div>
-                    <div>
-                        <div>pedidos@diegos.com.pe</div>
-                        <div>telefono 98975464</div>
-                    </div>
-                    <div>Barra de busqueda</div>
+                    <h3>pedidos@diegos.com.pe</h3>
                 </div>
-                <div class="menu-icons">
-                    <img src="img/icons/buscar.png" alt="">busq
-                    <img src="img/icons/car.png" alt="">car
+                <div>
+                    <h3>Teléfono: 98975464</h3>
                 </div>
-            </section>
+                <div class="barra-busqueda">
+                    <input type="text" placeholder="Buscar..." class="input-busqueda"></input>
+                </div>
+            </div>
+            <div class="menu-icon">
+                <div class="usuario">
+                    <h6>Usuario</h6>
+                    <img src="IMG/ICONOS/usuario.png" alt="">
+                </div>
+                <div class="redes">
+                    <h6>Contáctanos</h6>
+                    <img src="IMG/ICONOS/rs-2.png" alt="">
+                    <img src="IMG/ICONOS/rs-4.png" alt="">
+                </div>
+            </div>
         </div>
         <div>
-            <nav class="contenedor">
-                <div class="menus navegation">
+            <nav class="contenedor-menu">
+                <div class="menu-navegacion">
                     <div class="menu-links">
                         <a href="#" class="active">Inicio</a>
                         <a href="#">Pedidos</a>
@@ -44,18 +50,17 @@
         </div>
     </header>
 
-
-
-
-
     <main>
         <div class="banner">
-            <div class="contenedor" ></div>
+            <div class="contenedor"></div>
         </div>
-        <div>
-            <div class="contenedor bienvenida" >
-                <div class="titulo">Bienvenido a Pastelería Diego´s</div>
-                <div class="parrafo">¡La vida es más dulce con cada bocado de un buen postre!</div>
+
+        <div class="contenedor-bienvenida">
+            <div class="titulo">
+                <h3>Bienvenido a Pastelería Diego´s</h3>
+            </div>
+            <div class="parrafo">
+                <h3>¡La vida es más dulce con cada bocado de un buen postre!</h3>
             </div>
         </div>
 
@@ -65,14 +70,14 @@
                 <div class="lista">
                     <div class="cad-producto-sm">
                         <div class="eventos">
-                            <div><img src="img/icons/icono-agregar.png" alt=""></div>
+                            <div><img src="IMG/ICONOS/icono-agregar.png" alt=""></div>
                             <div class="descuento">
                                 <div>-20%</div>
-                                <img src="img/icons/icono-descuento.png" alt="">
+                                <img src="IMG/ICONOS/icono-descuento.png" alt="">
                             </div>
                         </div>
                         <div class="imagen center">
-                            <img src="img/products/img1.webp" alt="">
+                            <img src="IMG/PRODUCTOS/img1.webp" alt="">
                         </div>
                         <div class="informacion">
                             <div>Torta Cumpleañera</div>
@@ -82,14 +87,14 @@
                     </div>
                     <div class="cad-producto-sm">
                         <div class="eventos">
-                            <div><img src="img/icons/icono-agregar.png" alt=""></div>
+                            <div><img src="IMG/ICONOS/icono-agregar.png" alt=""></div>
                             <div class="descuento">
                                 <div>-80%</div>
-                                <img src="img/icons/icono-descuento.png" alt="">
+                                <img src="IMG/ICONOS/icono-descuento.png" alt="">
                             </div>
                         </div>
                         <div class="imagen center">
-                            <img src="img/products/img2.webp" alt="">
+                            <img src="IMG/PRODUCTOS/img2.webp" alt="">
                         </div>
                         <div class="informacion">
                             <div>Torta Cumpleañera</div>
@@ -99,14 +104,14 @@
                     </div>
                     <div class="cad-producto-sm">
                         <div class="eventos">
-                            <div><img src="img/icons/icono-agregar.png" alt=""></div>
+                            <div><img src="IMG/ICONOS/icono-agregar.png" alt=""></div>
                             <div class="descuento">
                                 <div>-10%</div>
-                                <img src="img/icons/icono-descuento.png" alt="">
+                                <img src="IMG/ICONOS/icono-descuento.png" alt="">
                             </div>
                         </div>
                         <div class="imagen center">
-                            <img src="img/products/img3.webp" alt="">
+                            <img src="IMG/PRODUCTOS/img3.webp" alt="">
                         </div>
                         <div class="informacion">
                             <div>Torta Cumpleañera</div>
@@ -116,31 +121,34 @@
                     </div>
                 </div>
                 <div class="eventos">
-                    <button type="button" class="boton-principal" >Explorar Productos</button>
+                    <button type="button" class="boton-principal">Explorar Productos</button>
                 </div>
             </div>
         </div>
 
         <div class="conocenos">
             <div class="contenedor">
-                <div class="titulo">Reconocido por nuestra <span class="titulo-cabecera">calidad en Pastelería</span></div>
+                <div class="titulo">Reconocido por nuestra <span class="titulo-cabecera">calidad en Pastelería</span>
+                </div>
                 <div class="lista">
                     <div class="cardInfo">
-                        <div class="ciruclo">1</div>
-                        <div class="cardInfo-frase">Reconocida por su calidad, creatividad e innovación en la elaboración de tortas, postres y pasteles</div>
+                        <div class="circulo">1</div>
+                        <div class="cardInfo-frase">Reconocida por su calidad, creatividad e innovación en la
+                            elaboración de tortas, postres y pasteles</div>
                         <div class="boton-control ciruclo flotarIzq">&lt;</div>
                     </div>
                     <div class="cardInfo">
-                        <div class="ciruclo">2</div>
-                        <div class="cardInfo-frase">Reconocida por su calidad, creatividad e innovación en la elaboración de tortas, postres y pasteles</div>
+                        <div class="circulo">2</div>
+                        <div class="cardInfo-frase">Reconocida por su calidad, creatividad e innovación en la
+                            elaboración de tortas, postres y pasteles</div>
                     </div>
                     <div class="cardInfo">
-                        <div class="ciruclo">3</div>
-                        <div class="cardInfo-frase">Reconocida por su calidad, creatividad e innovación en la elaboración de tortas, postres y pasteles</div>
+                        <div class="circulo">3</div>
+                        <div class="cardInfo-frase">Reconocida por su calidad, creatividad e innovación en la
+                            elaboración de tortas, postres y pasteles</div>
                         <div class="boton-control ciruclo flotarDer">&gt;</div>
                     </div>
                 </div>
-
             </div>
         </div>
 
@@ -152,114 +160,82 @@
                         <div class="direccion">
                             <div class="sede">Sede Principal</div>
                             <div>JR. FITZCARRALD 290 URB. CERCADO DE PUCALLPA , Perú</div>
-                            <div><button type="button" class="boton-secundario" >Ver en mapa</button></div>
+                            <div><button type="button" class="boton-secundario">Ver en mapa</button></div>
                         </div>
                         <div class="direccion">
                             <div class="sede">Sede Lima</div>
                             <div>JR. FITZCARRALD 290 CERCADO DE LIMA , Perú</div>
-                            <div><button type="button" class="boton-secundario" >Ver en mapa</button></div>
+                            <div><button type="button" class="boton-secundario">Ver en mapa</button></div>
                         </div>
                         <div class="direccion">
                             <div class="sede">Sede Chiclayo</div>
                             <div>JR. FITZCARRALD 290 CERCADO DE Chiclayo , Perú</div>
-                            <div><button type="button" class="boton-secundario" >Ver en mapa</button></div>
+                            <div><button type="button" class="boton-secundario">Ver en mapa</button></div>
                         </div>
                     </div>
                 </div>
                 <div class="mapa">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d986.7903042842677!2d-74.5389762377034!3d-8.385799001140336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91a3bcfba9cbb489%3A0x62aa0c43dff60b84!2sPasteleria%20Diegos!5e0!3m2!1ses-419!2spe!4v1733118226648!5m2!1ses-419!2spe" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d986.7903042842677!2d-74.5389762377034!3d-8.385799001140336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91a3bcfba9cbb489%3A0x62aa0c43dff60b84!2sPasteleria%20Diegos!5e0!3m2!1ses-419!2spe!4v1733118226648!5m2!1ses-419!2spe"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
         </div>
 
-        
         <div class="inscribete">
             <div class="contenedor">
-
                 <div class="formulario">
                     <div class="titulo-cabecera">Inscríbete</div>
-                    <div>
-                        <form action="inscribiteForm">
-                            <div>
-                                <input type="text" id="nombresApellidos" placeholder="Nombres y apellidos">
-                            </div>
-                            <div>
-                                <input type="text" id="email" placeholder="Email">
-                            </div>
-                        </form>
-                    </div>
+                    <form action="inscribiteForm">
+                        <div>
+                            <input type="text" id="nombresApellidos" placeholder="Nombres y apellidos">
+                        </div>
+                        <div>
+                            <input type="email" id="email" placeholder="Email">
+                        </div>
+                        <div>
+                            <button type="submit" class="boton">Suscríbeme</button>
+                        </div>
+                    </form>
                 </div>
                 <div class="informacion">
-                    <div>Una fecha especial merece una torta especial</div>
-                    <div>Disfruta en familia de nuestras deliciosas tortas e inscríbete para encontrar promociones especiales.</div>
-                </div>
-
-            </div>
-        </div>
-
-
-
-        <div class="test">
-
-        </div>
-
-
-        <div class="cardProducts contenedor">
-            <div class="titulos">
-                <span>Recently Added</span><br>
-                Latest Products
-            </div>
-            <div class="grilla-productos">
-                <div class="grupo-producto">
-                    <img src="img/products/prod-cebollas.png" alt="" onclick="mostrarDetalleProduct(1)">
-                    <div class="detalle texto-centro" id="detalle-1">
-                        Onions </br>
-                        <span>$20.00</span>
-                    </div>
-                </div>
-                <div class="grupo-producto">
-                    <img src="img/products/prod-zanahoria.png" alt="" onclick="mostrarDetalleProduct(2)">
-                    <div class="detalle texto-centro" id="detalle-2">
-                        Carrot </br>
-                        <span>$50.00</span>
-                    </div>
-                </div>
-                <div class="grupo-producto">
-                    <img src="img/products/prod-tomates.png" alt="" onclick="mostrarDetalleProduct(3)">
-                    <div class="detalle texto-centro" id="detalle-3">
-                        Tomate </br>
-                        <span>$50.00</span>
+                    <div class="titulo">Una fecha especial merece una torta especial</div>
+                    <div class="descripcion">
+                        Disfruta en familia de nuestras deliciosas tortas e inscríbete para encontrar promociones especiales.
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="slide">
-           <div class="contenedor">
-            <h3 id="titulo-banner">Be Healthy & Eat Only Fresh <br>
-                Organic Vagetables</h3>
-                <button>Shop Now </button>
-           </div>
-        </div>
-
-
-
-        <div id="footer" class="footer">
-            <div class="marco">
-                <div>
-                    <img src="img/logo-blanco.png" alt="">
-                </div>
-                <span>There are many variations of passages of lorem ipsum available, but the majority suffered.</span>
-                <div class="grupo-redes">
-                    <img src="img/icons/rs-1.png" alt="" onmouseover="cambiarBorde(true)" onmouseout="cambiarBorde(false)">
-                    <img src="img/icons/rs-2.png" alt="" onmouseover="cambiarBorde(true)" onmouseout="cambiarBorde(false)">
-                    <img src="img/icons/rs-3.png" alt="" onmouseover="cambiarBorde(true)" onmouseout="cambiarBorde(false)">
-                    <img src="img/icons/rs-4.png" alt="" onmouseover="cambiarBorde(true)" onmouseout="cambiarBorde(false)">
-                </div>
-            </div>
-        </div>
-        
+        </div>      
     </main>
-    <script src="index.js"></script>
-</body>
 
+    <footer class="footer">
+        <!-- Botón flotante -->
+        <a href="carrito.html" class="btn-flotante" title="Ir al carrito">
+            <img src="IMG/ICONOS/carrito-compra.svg" alt="Carrito" /> 
+        </a>
+        <div class="footer-nav">
+            <a href="#inicio">Inicio</a>
+            <a href="#pedidos">Pedidos</a>
+            <a href="#personaliza">Personaliza</a>
+            <a href="#eventos">Eventos</a>
+            <a href="#contacto">Contáctanos</a>
+        </div>
+        <div class="footer-social">
+            <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+        <div class="footer-info">
+            <p>Pucallpa, Perú</p>
+            <p>&copy; 2024 Pastelería Diego's. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    
+    
+
+    <script src="js/Pasteleria.js"></script>
+</body>
 </html>
